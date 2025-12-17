@@ -2,8 +2,8 @@
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
 
  name: Global
-    on:
-      push:
+     on:
+        push:
         branches: [ "main" ]
     jobs: # Corregido: 'jobs' en minúscula
       platzi:
